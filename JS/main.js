@@ -12,5 +12,5 @@ async function SolveStaircase(input, zeroCount) {
         }
     }
 
-    return input, (btoa(JSON.stringify({"data": ls, "depth": zeroCount})))
+    return hash, (btoa(JSON.stringify({"data": ls, "depth": zeroCount})))
 };
