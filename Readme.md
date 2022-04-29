@@ -32,7 +32,7 @@ JS - [Cutty72](https://github.com/Cutty72) ([@72_cutty](https://twitter.com/72_c
 <br>
 TS - [IdekDude](https://github.com/IdekDude) ([@IdekDudeTbh](https://twitter.com/IdekDudeTbh))
 <br>
-Go# - [AlienRecall](https://github.com/AlienRecall) ([@AlienRecall](https://twitter.com/AlienRecall))
+Go - [AlienRecall](https://github.com/AlienRecall) ([@AlienRecall](https://twitter.com/AlienRecall))
 
 ## License
 
