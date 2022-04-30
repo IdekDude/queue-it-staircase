@@ -1,16 +1,15 @@
 const crypto = require('crypto')
 
-
-async function SolveStaircase(input, zeroCount) {
+function SolveStaircase(input, zeroCount) {
     const hash = crypto.createHash("sha256").update(input).digest("hex");
     let ls = '';
 
-    for (c = 1; c <= zeroCount; c++) {
-        ls += "\\x20".repeat(zeroCount-c) + "#".repeat(c)
+    for (let c = 1; c <= zeroCount; c++) {
+        ls += "\\x20".repeat(zeroCount - c) + "#".repeat(c)
         if (c != zeroCount) {
             ls += ",\\x0a"
         }
     }
 
-    return hash, (btoa(JSON.stringify({"data": ls, "depth": zeroCount})))
-};
+    return { hash, data: (btoa(JSON.stringify({"data": ls, "depth": zeroCount}))) }
+}
