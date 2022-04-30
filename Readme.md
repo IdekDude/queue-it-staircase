@@ -7,7 +7,7 @@ Queue It Staircase Challenge Solution in Various Langauges
 ```javascript
 let input = "008635d2-c9ed-4cb9-951d-99ba6d5c994c"
 let zeroCount = 238;
-getHash(input, zeroCount);
+getHash(input, zeroCount); // Output: { hash: "...", data: "..." }
 ```
 
 ```golang
